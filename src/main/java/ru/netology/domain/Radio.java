@@ -4,7 +4,7 @@ public class Radio {
     private int currentStation;
     private int amountStation = 10;
     private int minStation = 0;
-    private int maxStation = 9;
+    private int maxStation = calculateMaxStation();
     private int currentVolume;
     private int minVolume = 0;
     private int maxVolume = 100;
@@ -14,6 +14,7 @@ public class Radio {
 
     public Radio (int amountStation) {
         this.amountStation = amountStation;
+        maxStation = calculateMaxStation();
     }
 
     public int calculateMaxStation() {

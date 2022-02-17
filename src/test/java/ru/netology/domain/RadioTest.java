@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class RadioTest {
-    ru.netology.domain.Radio radio2 = new ru.netology.domain.Radio();
+    Radio radio2 = new Radio();
 
     @Test
     public void shouldSelectCorrectStation() {

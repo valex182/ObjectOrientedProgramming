@@ -12,6 +12,10 @@ public class Radio {
     public Radio() {
     }
 
+    public Radio (int amountStation) {
+        this.amountStation = amountStation;
+    }
+
     public int calculateMaxStation() {
         return amountStation - 1;
     }
